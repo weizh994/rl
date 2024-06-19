@@ -35,7 +35,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--policy", default="TD3")  # Policy name (TD3, DDPG or OurDDPG)
     parser.add_argument(
-        "--env", default="HalfCheetah-v2"
+        "--env", default="HalfCheetah-v4"
     )  # OpenAI gym environment name
     parser.add_argument(
         "--seed", default=0, type=int
